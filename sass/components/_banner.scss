@@ -1,0 +1,30 @@
+@use '../utils/vars' as *;
+@use './mixins' as *;
+@use './buttons' as *;
+
+
+    
+.banner {
+    background-image: url('/images/background/img_overlay.svg'), url('/images/background/img_main.jpg');
+    background-position: center;
+    background-size: cover;
+    min-height: 600px;
+    background-color: rgba(47, 48, 58, 1);
+    width: 1600px;
+    height: 600px;
+
+    &__motto {
+        font-size: 44px;
+        color: $white;
+        text-align: center;
+        padding-top: 200px;
+        line-height: 60px;
+    }
+
+    &__button {
+        @extend %btn;
+        margin-top: 40px;
+        margin-left: 700px;
+        margin-right: 700px;
+    }
+}
