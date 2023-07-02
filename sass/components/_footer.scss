@@ -29,7 +29,7 @@
                 font-size: 14px;
                 font-family: $font_roboto;
                 line-height: 24px;
-                letter-spacing: 0.42px;
+                letter-spacing: $letter_spacing_main;
                 text-decoration: none;
             }
 
@@ -38,7 +38,7 @@
                 font-size: 14px;
                 font-family: $font_roboto;
                 line-height: 24px;
-                letter-spacing: 0.42px;
+                letter-spacing:$letter_spacing_main ;
             }
         }
 
@@ -68,7 +68,7 @@
             font-style: normal;
             font-weight: 700;
             line-height: normal;
-            letter-spacing: 0.42px;
+            letter-spacing: $letter_spacing_main;
             text-transform: uppercase;
             margin-bottom: 20px;
         }
@@ -110,7 +110,7 @@
             font-size: 14px;
             font-family: $font_roboto;
             font-weight: 700;
-            letter-spacing: 0.42px;
+            letter-spacing:$letter_spacing_main;
             text-transform: uppercase;
         }
 
